@@ -252,6 +252,7 @@ add_library(obs-ios-camera-source MODULE
 include_directories( 
 	"${LIBOBS_INCLUDE_DIR}/../UI/obs-frontend-api"
 	${FFMPEG_INCLUDE_DIRS}
+	${AVCODEC_INCLUDE_DIR}
 )
 
 if(MSVC)
